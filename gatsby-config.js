@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: 'Overreacted',
-    author: 'Dan Abramov',
-    description: 'Personal blog by Dan Abramov. I explain with words and code.',
-    siteUrl: 'https://overreacted.io',
+    title: 'Wrungcodes',
+    author: 'Fayemi Daniel Oluwatosin',
+    description: 'Personal blog by Fayemi Daniel Oluwatosin. fun and codes.',
+    siteUrl: 'https://wrungcodes.com',
     social: {
-      twitter: '@dan_abramov',
+      twitter: '@wrungcodes',
     },
   },
   pathPrefix: '/',
@@ -80,7 +80,7 @@ module.exports = {
               return allMarkdownRemark.edges.map(edge => {
                 const siteUrl = site.siteMetadata.siteUrl;
                 const postText = `
-                <div style="margin-top=55px; font-style: italic;">(This is an article posted to my blog at overreacted.io. You can read it online by <a href="${siteUrl +
+                <div style="margin-top=55px; font-style: italic;">(This is an article posted to my blog at wrungcode.com. You can read it online by <a href="${siteUrl +
                   edge.node.fields.slug}">clicking here</a>.)</div>
               `;
 
@@ -126,7 +126,7 @@ module.exports = {
               }
             `,
             output: '/rss.xml',
-            title: "Dan Abramov's Overreacted Blog RSS Feed",
+            title: "Daniel Fayemi's Wrungcodes Blog RSS Feed",
           },
         ],
       },
@@ -165,8 +165,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Overreacted`,
-        short_name: `Overreacted`,
+        name: `Wrungcodes`,
+        short_name: `Wrungcodes`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#ffa7c4`,
