@@ -53,7 +53,7 @@ class BitcoinPremitives
 
 // when it is used
 if(transaction == BitcoinPremitives.PENDING_BITCOIN_TRANSACTION)
-{  
+{
     transaction.is_internal = BitcoinPremitives.IS_INTERNAL_TRANSACTION
 }
 
