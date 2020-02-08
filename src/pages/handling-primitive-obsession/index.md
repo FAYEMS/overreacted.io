@@ -112,3 +112,5 @@ $this->createUser( "admin" );
 using the method will greatly increase the orginazation of your work and prevent hard coding primitive to an instance
 
 So, always handle your primitives well.
+
+[this](/handling-primitive-obsession/)

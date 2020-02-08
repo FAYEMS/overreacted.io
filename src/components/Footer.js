@@ -30,14 +30,6 @@ class Footer extends React.Component {
           rel="noopener noreferrer"
         >
           github
-        </a>{' '}
-        &bull;{' '}
-        <a
-          href="https://stackoverflow.com/users/458193/dan-abramov"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          stack overflow
         </a>
       </footer>
     );
